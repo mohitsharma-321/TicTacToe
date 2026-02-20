@@ -10,4 +10,8 @@ public class Game {
     private List<Player> players = new ArrayList<>();
     private Board board;
 
+    public Game createGame(List<Player> players,Board board) {
+        return null;
+    }
+
 }
