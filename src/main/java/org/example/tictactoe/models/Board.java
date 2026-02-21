@@ -10,5 +10,6 @@ import java.util.List;
 @Setter
 public class Board {
 
-    private List<List<BoardCell>> cells = new ArrayList<>();
+    //we can use list of list here !!
+    private char[][] cells;
 }
