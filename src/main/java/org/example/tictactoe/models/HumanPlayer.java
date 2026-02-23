@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 public class HumanPlayer extends Player{
 
-    User user;
+    User user;      // Used Flyweight DP here
 
     @Override
     public BoardCell makeMove(Board board) {

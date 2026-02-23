@@ -10,6 +10,8 @@ public class Game {
 
     private String name;
    // private List<Player> players = new ArrayList<>();
+    // we use this in future requirement to use multiple players,we can just add it-> So extendible
+
     private char currentPlayer = 'X';
     private Board board;
 

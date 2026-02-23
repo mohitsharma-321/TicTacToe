@@ -11,5 +11,6 @@ import java.util.List;
 public class Board {
 
     //we can use list of list here !!
+//    List<List<char>> cells;
     private char[][] cells;
 }
